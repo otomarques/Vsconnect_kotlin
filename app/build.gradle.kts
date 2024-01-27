@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.senai.vsconnect_kotlin"
-        minSdk = 33
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -39,6 +39,13 @@ dependencies {
 
 //editar imagem - arredondar imagem
     implementation("de.hdodenhof:circleimageview:3.1.0")
+
+
+    //retrofit
+    implementation("com.google.code.gson:gson:2.8.8")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 
 
     implementation("androidx.core:core-ktx:1.12.0")
